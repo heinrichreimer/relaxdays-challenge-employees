@@ -12,9 +12,9 @@ export const AppFooter: FunctionComponent = () => {
       className="app-footer"
     >
       <Container>
+        <Navbar.Text>MIT Licensed</Navbar.Text>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Navbar.Text>MIT Licensed</Navbar.Text>
           <Col />
           <Nav>
             <LinkContainer to="/imprint" exact>
