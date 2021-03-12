@@ -4,7 +4,7 @@ App for employees to manage vacation, sick leaves, and passwords, to see events,
 
 This project was created in the Relaxdays Code Challenge Vol. 1.
 See the [hackathon homepage](https://sites.google.com/relaxdays.de/hackathon-relaxdays/startseite) for more information.
-My participant ID in the challenge was: `CC-VOL1-54`
+Our participant ID in the challenge were: `CC-VOL1-54` and `CC-VOL1-62`
 
 ## Usage
 
@@ -20,15 +20,15 @@ cd relaxdays-challenge-employees/
 1. Install [Docker](https://docs.docker.com/get-docker/).
 1. Build a Docker container with this project:
 
-    ```shell script
-    docker build -t relaxdays-challenge-employees .
-    ```
+   ```shell script
+   docker build -t relaxdays-challenge-employees .
+   ```
 
 1. Start the Docker container:
 
-    ```shell script
-    docker run -v $(pwd):/app -p 3000:80 -it relaxdays-challenge-employees
-    ```
+   ```shell script
+   docker run -v $(pwd):/app -p 3000:80 -it relaxdays-challenge-employees
+   ```
 
 1. The app is now running on [`localhost:3000`](http://localhost:3000/)
 
@@ -37,15 +37,15 @@ cd relaxdays-challenge-employees/
 1. Install [Node](https://yarnpkg.com/) and [Yarn](https://yarnpkg.com/).
 1. Install dependencies:
 
-    ```shell script
-    yarn install
-    ```
+   ```shell script
+   yarn install
+   ```
 
 1. Run the app:
 
-    ```shell script
-    yarn start
-    ```
+   ```shell script
+   yarn start
+   ```
 
 1. The app is now running on [`localhost:3000`](http://localhost:3000/)
 
