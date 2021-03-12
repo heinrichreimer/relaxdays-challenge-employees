@@ -1,11 +1,15 @@
 import { StrictMode } from "react";
 import { render } from "react-dom";
-import { App } from "./App";
+import { App } from "./components";
 import { reportWebVitals } from "./reportWebVitals";
+import "./index.scss";
+import { HashRouter } from "react-router-dom";
 
 render(
   <StrictMode>
-    <App />
+    <HashRouter>
+      <App />
+    </HashRouter>
   </StrictMode>,
   document.getElementById("root")
 );
