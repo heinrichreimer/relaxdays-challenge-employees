@@ -1,0 +1,9 @@
+export { Colleagues } from "./Colleagues";
+export { Corona } from "./Corona";
+export { Doctor } from "./Doctor";
+export { Events } from "./Events";
+export { Home } from "./Home";
+export { NotFound } from "./NotFound";
+export { Settings } from "./Settings";
+export { SickLeaves } from "./SickLeaves";
+export { Vacation } from "./Vacation";
